@@ -23,7 +23,7 @@ st.title("🌦 Live Weather Dashboard")
 st.caption("Real-time weather data using Tomorrow.io API")
 
 # ---------------- INPUT ----------------
-city = st.text_input("Enter City Name", "Ranchi")
+city = st.text_input("Enter City Name")
 
 # ---------------- GEO CODING ----------------
 def get_lat_lon(city):
@@ -137,3 +137,4 @@ if city:
     st.dataframe(df, use_container_width=True)
 
     st.success("Auto-refresh enabled (every 5 minutes)")
+
