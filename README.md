@@ -6,7 +6,7 @@ This app displays current weather conditions and a 5-day weather forecast for In
 🚀 Live Demo
 
    👉 App Link:
-     
+     https://live-weather-forecasting-app.streamlit.app/
 
 ✨ Features
 
